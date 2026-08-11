@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Legacy PHP site (contains DB credentials; not part of the new website)
+public_html_existing/
+
+# Editor
+.idea/
+.vscode/
+*.swp

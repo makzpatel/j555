@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F3F4F6"/>
+  <rect x="280" y="120" width="40" height="360" rx="4" fill="#2A2F36"/>
+  <polygon points="300,100 260,140 340,140" fill="#6B7280"/>
+  <rect x="380" y="160" width="36" height="300" rx="4" fill="#2A2F36"/>
+  <polygon points="398,140 360,180 436,180" fill="#6B7280"/>
+  <rect x="470" y="200" width="32" height="260" rx="4" fill="#2A2F36"/>
+  <polygon points="486,180 450,220 522,220" fill="#6B7280"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#9CA3AF">Drill Bits — Imagery forthcoming</text>
+</svg>
