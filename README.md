@@ -1,24 +1,33 @@
-# Jagdish Tools (J555)
+# J555 — Jagdish Tools
 
-Website redesign project for Jagdish Tools.
-
-## Structure
-
-- `website/` — New Next.js site (primary deliverable)
-- `public_html_existing/` — Legacy PHP site used as content/asset source only
+Modern Next.js website for Jagdish Tools (J555), built from the legacy `public_html_existing` content and assets.
 
 ## Quick start
 
 ```bash
-cd website
 npm install
 npm run dev
 ```
 
 Open http://localhost:3000
 
-## Deploy
+## Build
 
-Deploy the `website` directory to Vercel.
+```bash
+npm run build
+npm start
+```
 
-The repo includes a root `vercel.json` that sets `rootDirectory` to `website`. If the project was created before that file existed, open **Project Settings → General → Root Directory** and set it to `website`, then redeploy.
+## Deploy on Vercel
+
+Connect this repository to Vercel. The Next.js app lives at the **repository root**, so no Root Directory override is required.
+
+Set `NEXT_PUBLIC_SITE_URL` in Vercel environment variables if needed.
+
+## Content notes
+
+- Product catalogue data: `src/data/products.ts`, `src/data/categories.ts`
+- Company details: `src/data/company.ts`
+- Legacy PHP site in `public_html_existing/` is excluded from git (contains credentials)
+- Enquiry form opens a mailto draft until transactional email is configured
+- Certification / factory claims are placeholders until verified documents are provided
