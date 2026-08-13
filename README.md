@@ -2,18 +2,15 @@
 
 Next.js website for Jagdish Tools (J555).
 
-## App location
-
-The Next.js app lives in **`website/`**.
-
-## Local development
-
 ```bash
-cd website
 npm install
 npm run dev
 ```
 
-## Vercel
+Open http://localhost:3000
 
-Set **Root Directory** to `website` in Project Settings → General, then redeploy.
+```bash
+npm run build
+```
+
+Deploy on Vercel from the repository root with default settings (no Root Directory override).
